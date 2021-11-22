@@ -1,0 +1,44 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.post-form input {
+  width: 60vw;
+}
+
+.post-form label {
+  font-weight: 900;
+}
+
+.buttons-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+}
+
+.buttons-details button {
+  border-radius: 10px;
+  min-width: 15vw;
+  max-width: 85px;
+  height: 26px;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  margin: 4%;
+}
+
+.mandatory-items {
+  margin-bottom: 5%;
+  font-size: 0.625rem;
+  color: gray;
+  text-align: start;
+}
+
+.post-form label {
+  margin-bottom: 0.5%;
+  margin-top: 1.5%;
+}

@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(159, 206, 211);
+  font-family: "Nunito", sans-serif;
+}
+
+.home-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 15vh;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.home-title h1 {
+  font-weight: 900;
+  margin-top: 5%;
+}
+
+.home-title img {
+  height: 12vh;
+  width: auto;
+}
+
+.btn-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.btn-link a {
+  background-color: rgb(252, 168, 11);
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  width: 25vw;
+}
+
+.instructions p {
+  text-align: center;
+  margin: 1% 5%;
+}
+
+.info-footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 15vh;
+  margin-bottom: 0%;
+}
+
+.github-box, a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-box a {
+  text-decoration: none;
+  color: black;
+}

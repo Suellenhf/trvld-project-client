@@ -1,0 +1,75 @@
+.marker {
+  height: 3vh;
+  width: auto;
+  transform: translate(-50%, -100%);
+  z-index: -99;
+}
+
+.title {
+  color: rgb(208, 136, 3);
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-weight: 900;
+  font-size: 0.9375rem;
+}
+
+.location-image {
+  min-width: 40vw;
+  max-width: 55vw;
+  max-height: 50vh;
+}
+
+.pin-marker {
+  height: 10vh;
+  width: auto;
+  margin: 10%;
+}
+
+.mapboxgl-popup-close-button {
+  padding: 0;
+  width: 5%;
+}
+
+.popup {
+  min-width: 55vw;
+  max-width: 60vw;
+  min-height: auto;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.dates {
+  margin: 1%;
+  font-size: 0.875rem;
+}
+
+.created-at-post {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+  text-align: start;
+}
+
+.created-at-update {
+  font-size: 0.625rem;
+  margin: 0;
+  text-align: end;
+}
+
+.created-at-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  color: gray;
+}
+
+.description {
+  margin: 5%;
+  font-size: 1rem;
+  text-align: center;
+}

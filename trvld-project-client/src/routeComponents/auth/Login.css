@@ -1,0 +1,58 @@
+.title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  height: 15vh;
+  margin: 10%;
+}
+
+.title-image img {
+  min-height: 12vh;
+  min-width: 12vh;
+}
+
+.center-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+
+.form-group {
+  margin: 0;
+  width: 65vw;
+}
+
+.form-group label {
+  margin: 1%;
+}
+
+.form-group input {
+  height: 20%;
+  max-height: 40px;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+button {
+  border: none;
+  background-color: rgb(252, 168, 11);
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  width: 25vw;
+}
+
+.go-to-signup-login a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+.go-to-signup-login p {
+  text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    background-color: rgb(159, 206, 211);
+    z-index: 10;
+    padding: 8px 2px;
+}
+
+.navbar img {
+    height: 40px;
+    width: auto;
+    margin: 0
+}
+
+.nav-p {
+    margin-left: 45px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.logout-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
